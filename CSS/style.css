@@ -22,10 +22,11 @@
   margin: 1rem;
   background-color: #fff;
   border-radius: 10px;
-  font-size: 8rem;
+  font-size: 5rem;
   color: green;
   cursor: pointer;
   user-select: none;
+  touch-action: manipulation;
 }
 .result-style {
   cursor: auto;
@@ -43,4 +44,5 @@
   font-size: 2rem;
   color: green;
   cursor: pointer;
+  touch-action: manipulation;
 }
