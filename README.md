@@ -3,7 +3,7 @@
 
 
 ## Description
-This is my first Javascript project, a simple counter created dinamically.
+This is my first Javascript project, a simple counter created dynamically.
 
 The counter starts from 0️⃣ and user can add ➕ or remove ➖ by 1. The result color is changing up to the type of number.
 
