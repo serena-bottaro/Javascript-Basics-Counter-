@@ -13,16 +13,18 @@
   align-items: center;
 }
 .button-style,
-.result-style {
+.result-style,
+.add,
+.remove {
   display: flex;
-  padding: 0.35em;
+  padding: 0.1em 0.25em;
   justify-content: center;
   align-items: center;
   border: 2px solid darkgray;
   margin: 1rem;
   background-color: #fff;
   border-radius: 10px;
-  font-size: 5rem;
+  font-size: 6rem;
   color: green;
   cursor: pointer;
   user-select: none;
@@ -30,9 +32,10 @@
 }
 .result-style {
   cursor: auto;
+  width: auto;
 }
 
-.reset-style {
+.reset {
   display: flex;
   padding: 0.5em 1em;
   justify-content: center;
