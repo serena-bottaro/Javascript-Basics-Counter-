@@ -18,6 +18,9 @@ const reset = createElement("button", "reset", "RESET", container);
 body.addEventListener("click", (event) => {
   if (event.target.className === "add") {
     resultBtn.innerHTML = myNumber += 1;
+    if (myNumber >= 0) {
+      resultBtn.style.color = "green";
+    }
   } else if (event.target.className === "remove") {
     resultBtn.innerHTML = myNumber -= 1;
     if (myNumber < 0) {
@@ -26,9 +29,5 @@ body.addEventListener("click", (event) => {
   } else {
     myNumber = 0;
     resultBtn.innerHTML = myNumber;
-
-    if (myNumber >= 0) {
-      resultBtn.style.color = "green";
-    }
   }
 });
